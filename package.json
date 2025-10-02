@@ -3,9 +3,9 @@
   "description": "A simple CLI tool that logs arguments",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/bin/cli.js",
+  "main": "./bin/cli.js",
   "bin": {
-    "hihi": "./dist/bin/cli.js"
+    "hihi": "./bin/cli.js"
   },
   "scripts": {
     "build": "tsc",
