@@ -1,0 +1,12 @@
+{
+  "name": "test-layer",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "test-layer": "cd ../../ && pwd"
+  },
+  "dependencies": {
+  }
+}
