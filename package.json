@@ -1,15 +1,29 @@
 {
-  "name": "test-layer",
-  "description": "",
+  "name": "hihi-cli",
+  "description": "A simple CLI tool that logs arguments",
   "version": "1.0.0",
   "type": "module",
-  "main": "./nuxt.config.ts",
+  "main": "./dist/bin/cli.js",
   "bin": {
-    "hihi": "echo hihi"
+    "hihi": "./dist/bin/cli.js"
   },
   "scripts": {
-    "test-layer": "cd ../../ && pwd"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
-  }
+    "commander": "^14.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": ["cli", "console", "logging"],
+  "author": "",
+  "license": "MIT"
 }
