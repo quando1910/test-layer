@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "main": "./nuxt.config.ts",
+  "bin": {
+    "hihi": "echo hihi"
+  },
   "scripts": {
     "test-layer": "cd ../../ && pwd"
   },
